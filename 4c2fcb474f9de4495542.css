@@ -1,10 +1,16 @@
-@import url(https://fonts.googleapies.com/css2?family=Comic+Neue&display=swap);
+
+
+@font-face{
+    font-family: customFont;
+    src: url(fd0110471f2228c1808a75b977150a0a.ttf);
+    }
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: #ffff;
-    font-family: 'Comic Neue', cursive;
+    font-family: customFont;
 }
 
 body{
